@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 
   </head>
-  <body ng-app="peopleApp">
+  <body ng-app="peopleApp" ng-controller="FormController as vm">
 
     <header>
       <div class="mainheader">
@@ -36,10 +36,17 @@
     </div>
     </footer>
 
-
+    <!-- Application Dependencies -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.min.js"></script>
+    <script src="node_modules/api-check/dist/api-check.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-formly/dist/formly.js"></script>
+    <script src="node_modules/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.js"></script>
+    <!-- Application Scripts  -->
     <script src="app.js"></script>
+    <script src="scripts/FormController.js"></script>
+    <script src="scripts/state.js"></script>
 
 
 

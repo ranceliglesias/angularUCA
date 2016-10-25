@@ -1,5 +1,5 @@
 ;(function(window){
-  angular.module('peopleApp',['ngRoute'])
+  angular.module('peopleApp',['ngRoute', 'formly', 'formlyBootstrap'])
 
   .config(function($routeProvider) {
     $routeProvider.
